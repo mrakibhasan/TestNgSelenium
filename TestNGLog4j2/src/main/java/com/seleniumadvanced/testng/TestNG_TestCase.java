@@ -34,9 +34,9 @@ public class TestNG_TestCase {
 		SearchPage.navigateToFlightsTab(driver);
 		SearchPage.fillOriginTextBox(driver, "Newark, NJ, United States (EWR-Liberty Intl.)");
 		SearchPage.destinationTextBox(driver).sendKeys("Houston");
-		SearchPage.departureDateTextBox(driver);
+		/*SearchPage.departureDateTextBox(driver);
 		SearchPage.returnDateTextBox(driver);
-		SearchPage.searchButton(driver);
+		SearchPage.searchButton(driver)*/;
 	}
 	
 	@AfterMethod

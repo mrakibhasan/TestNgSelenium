@@ -43,13 +43,13 @@ public class SearchPage {
 	
 	public static void departureDateTextBox(WebDriver driver) {
 		 driver.findElement(By.id("flight-departing-hp-flight")).click();
-		 driver.findElement(By.xpath("//div[@class='datepicker-cal-month']//table//tbody//tr[4]//td[5]//button[contains(text(),25)]")).click();
+		 driver.findElement(By.xpath("div[@id='flight-departing-wrapper-hp-flight']//div/table/tbody/tr[5]/td[4]/button")).click();
 		 log.info("Departure box found ");
 	}
-	
+	//div[@id='flight-departing-wrapper-hp-flight']//div/table/tbody/tr[5]/td[4]/button
 	public static void returnDateTextBox(WebDriver driver) {
 		driver.findElement(By.id("flight-returning-hp-flight")).click();
-		driver.findElement(By.xpath("//div[@id='flight-returning-wrapper-hp-flight']/div/div/div[3]/table/tbody/tr[1]/td[5]/button[contains(text(),1)]")).click();
+		driver.findElement(By.xpath("//div[@id='flight-departing-wrapper-hp-flight']/div/div/div[3]/table/tbody/tr[4]/td[4]/button")).click();
 		log.info("Return box found ");
 	}
 	public static void searchButton(WebDriver driver) {
