@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Extent TestSuite]">
+  <test name="FireFox Test(failed)">
+    <classes>
+      <class name="com.seleniumadvanced.report.withmultipletestcases.Test1">
+        <methods>
+          <include name="afterClass"/>
+          <include name="test1_validLoginTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.seleniumadvanced.report.withmultipletestcases.Test1 -->
+    </classes>
+  </test> <!-- FireFox Test(failed) -->
+</suite> <!-- Failed suite [Extent TestSuite] -->

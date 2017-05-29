@@ -1,0 +1,12 @@
+<suite name="TestSuite">
+<test name="ExpediaSearchPage" preserve-order="true">
+<classes>
+	<class name="com.seleniumadvanced.testsuite.TestNG_TestCase">
+		<methods>
+			<include name="test1_fillBasicInfo" />
+			<include name="test2_fillAdvancedInfo" />
+		</methods>
+	</class>
+</classes>
+</test>
+</suite>
