@@ -1,0 +1,9 @@
+<suite name="Extent TestSuite">
+
+<test name="FireFox Test">
+	<classes>
+		<class name="advancedreport.testng.report.multipletestcase.Test1"></class>
+		<class name="advancedreport.testng.report.multipletestcase.Test2"></class>
+	</classes>
+</test>
+</suite>

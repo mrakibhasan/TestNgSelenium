@@ -1,4 +1,0 @@
-16:25:01.327 INFO  TestNG_TestCase -Navigate to flights tab
-16:25:01.346 INFO  TestNG_TestCase -Origin text box element found
-16:25:02.498 INFO  TestNG_TestCase -Enter origin city as Newark, NJ, United States (EWR-Liberty Intl.)
-16:25:02.514 INFO  TestNG_TestCase -Destination text box element found

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tutorialselenium.FileUploadWindows">
+      <class name="advancedreport.testng.report.LoginTestWithScreenshot">
         <methods>
-          <include name="fileUpload"/>
-          <include name="afterClass"/>
           <include name="beforeClass"/>
+          <include name="test1_validLoginTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- tutorialselenium.FileUploadWindows -->
+      </class> <!-- advancedreport.testng.report.LoginTestWithScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

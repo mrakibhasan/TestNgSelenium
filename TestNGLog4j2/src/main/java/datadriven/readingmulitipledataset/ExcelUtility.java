@@ -41,7 +41,7 @@ public class ExcelUtility {
 			XSSFCell startCell = boundaryCells[0];
 			
 			XSSFCell endCell = boundaryCells[1];
-			System.out.println(endCell);
+			System.out.println(endCell.getColumnIndex());
 			
 			int startRow = startCell.getRowIndex() + 1;
 			int endRow = endCell.getRowIndex() - 1;
